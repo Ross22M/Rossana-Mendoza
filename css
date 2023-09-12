@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+cuerpo {
+    Antecedentes: #F6F5F7;
+    font-family: 'Montserrat', sans-serif;
+    color: #3E363F;
+    margen: 0;
+    relleno: 0;
+    Pantalla: Flex;
+    align-items: centro;
+    justificar-contenido: centro;
+    Altura mínima: 100VH;
+}
+#contenedor {
+    Ancho: 90%;
+    Ancho máximo: 900px;
+    margen: 0 automático;
+    Radio de borde: 10px;
+    desbordamiento: oculto;
+    box-shadow: 0 14 px 28px rgba(0, 0, 0, 0.25),
+                0 10 px 10px rgba(0, 0, 0, 0,22);
+    Pantalla: Flex;
+}
+#calculadora {
+    fondo: blanco;
+    Ancho: 100%;
+    Relleno: 20px;
+    tamaño de caja: border-box;
+}
+#detalle {
+    fondo: #3498DB;
+    Ancho: 100%;
+    Color: #FFF;
+    Relleno: 20px;
+    tamaño de caja: border-box;
+    Pantalla: Flex;
+    dirección flexible: columna;
+    justificar-contenido: espacio-entre;
+    alineación de texto: justificar;
+}
+. Contenido {
+    alineación de texto: centro;
+}
+#detalle ul {
+    altura de línea: 2,5; /* Ajusta el espacio entre líneas según tus preferencias */
+}
+entrada {
+    Ancho: 100%;
+    Ancho máximo: 400px;
+    relleno: 8px 12px; /* Reducimos el padding para hacerlo más pequeño */
+    tamaño de fuente: 14px; /* Reducimos el tamaño de fuente */
+    borde: ninguno;
+    background-color: #eee;
+    margen-fondo: 10px;
+}
+botón {
+    tamaño de fuente: 15px;
+    font-weight: negrita;
+    relleno: 12 px 45px;
+    Radio de borde: 30px;
+    fondo-color: #3498DB;
+    borde: 1px sólido #3498DB;
+    color: #FFFFFF;
+    text-transform: mayúsculas;
+    Espaciado entre letras: 1px;
+    transición: transformar 20ms ease-in;
+    Ancho: 100%;
+    Ancho máximo: 200px;
+}
+botón:activo {
+    transformar: escala(0,95); /* Reducir ligeramente el tamaño al hacer clic */
+}
+#error {
+    color: rojo;
+    font-weight: negrita;
+}
+. resultado {
+    color: #0A81D1;
+    font-weight: negrita;
+    tamaño de fuente: 15px;
+    tamaño de fuente: 14px;
+    margen-fondo: 5px;
+}
